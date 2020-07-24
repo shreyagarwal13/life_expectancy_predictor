@@ -1,0 +1,38 @@
+[
+    {
+        "id": "d7f77f41.968c9",
+        "type": "ui_text",
+        "z": "340b4e2c.00b0f2",
+        "group": "bee14acb.4b3528",
+        "order": 1,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Predicted Age",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 460,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "bee14acb.4b3528",
+        "type": "ui_group",
+        "z": "",
+        "name": "Enter the Country data",
+        "tab": "23f21353.0cb3bc",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "23f21353.0cb3bc",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Life Expectancy Predictor",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
